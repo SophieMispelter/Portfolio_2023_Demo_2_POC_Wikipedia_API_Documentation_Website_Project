@@ -1,0 +1,7 @@
+1 - Get data by bodyType (moon) from the Solar System API
+2 - In the same component, implement dynamic wikipedia URL to get the thumbnail image of each object
+        2.1 - Based on the body type prop or other property, complete the english name value: in the last .then, add a forEach loop on the API results array and add a condition statement to custom the name prop / URL
+        2.2 - With this new array of custom urls, make a request to the wiki api with promise.all to retrieve the thumbnails url of each object (in the last .then, build a new array of object with the original name the custom name and the the thumbnail url to set in local state)
+        2.3 In the JSX part of the component, use of local state to then display the result using map() JS
+3 - Display the original name as well as the custom name associated to each image
+
